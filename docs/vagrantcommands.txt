@@ -1,0 +1,7 @@
+vagrant init
+vagrant up
+apt-get update
+apt-get -y install apache2
+vagrant halt
+vagrant destroy
+vagrant reload <after vagrant file changes to implement>
