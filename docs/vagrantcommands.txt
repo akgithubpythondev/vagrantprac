@@ -1,4 +1,4 @@
-vagrant init
+vagrant init <box> ex: ubuntu/trusty64
 vagrant up
 apt-get update
 apt-get -y install apache2
