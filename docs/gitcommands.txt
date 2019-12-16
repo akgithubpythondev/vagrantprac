@@ -1,0 +1,16 @@
+mkdir gitdirectory
+cd gitdirectory
+mkdir gitdirectory/docs gitdirectory/src
+git init
+git config --global user.email ""
+git config --global user.name ""
+
+touch docs/readme.txt docs/usecase.txt
+git add .
+git commit -m "added"
+
+#create git repository in git hub account and copy remote add 
+git remoteadd  <>
+
+#push the changes into github 
+git push -u origin master
