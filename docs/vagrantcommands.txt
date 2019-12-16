@@ -18,3 +18,6 @@ vb.cpus="2"
 
 
 
+Git install in vagrant image
+===========================
+apt-get -y install git
