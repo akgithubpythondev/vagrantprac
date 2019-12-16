@@ -5,3 +5,16 @@ apt-get -y install apache2
 vagrant halt
 vagrant destroy
 vagrant reload <after vagrant file changes to implement>
+vagrantfile changes
+====================
+for hostname change
+config.vm.hostname="abcd"
+
+for memory
+vb.memory="2048"
+
+cpu changes
+vb.cpus="2"
+
+
+
